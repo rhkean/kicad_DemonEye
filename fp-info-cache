@@ -1,4 +1,4 @@
-25796375490701488
+25801714436897254
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71015,6 +71015,20 @@ TPSM84338RCJR
 21
 21
 My Package_Leadless
+Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm
+Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
+0
+14
+11
+My Package_Leadless
+Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm_ThermalVias
+Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
+0
+18
+11
+My Package_Leadless
 Texas_VQFN-HR-12_3.5x3.0mm_P0.5mm_Hot-Rod
 
 
@@ -71028,6 +71042,13 @@ WDFN6-4_2.05x2.05mm_P0.65mm
 0
 4
 4
+My Package_SO
+FSOP-8_3.25x1.65mm_P0.8mm
+FSOP-8_3.25x1.65mm_P0.8mm
+Integrated Circuit
+0
+8
+8
 My Package_SO
 TSSOP-14_4.4x5mm_P0.65mm
 TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py

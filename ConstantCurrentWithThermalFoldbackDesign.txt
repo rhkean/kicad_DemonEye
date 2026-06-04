@@ -1,0 +1,62 @@
+given the following Constant Current with thermal backflow circuit
+
+The intent is to maintain 100mA current across a 25-100C temperature range
+
+```
+                    +-------+                                     
+         +----------+  5R6  +----------+                          
+         |          +-------+          |                          
+         |                             |                          
+ Vin     |  +-------+       +-------+  |  +-----------+     Iload 
+---------+--+  4k7  +---+---+  511R +--+--+ S       D +-----------
+         |  +-------+   |   +-------+     |           |           
+         |              |                 |     G     |           
+         |        +-----+-----+           +-----+-----+           
+         |        |     B     |                 |                 
+         |        |           |                 |                 
+         +--------+ E       C +-----------------+                 
+                  +-----------+                 |                 
+                                                |                 
+ OUTX               +-------+                   |                 
+--------------------+  1k0  +-------------------+                 
+                    +-------+                                     
+```
+
+declarations:
+Vsrc:  11.7V
+Iload:  100mA
+Rsns:  Sensing resistor
+Rntc:  NTC Thermistor, 4k7, B(25/100)=3560K, Rntc(25C)=4k7 Ohm, Rntc(100C)=426.42 Ohm
+Rbase:  base resistor for heat sensitive variable voltage divider
+PFET:  Rds(on)=0.064 Ohm, Vgs(th)=0.75V, include internal 10k Ohm pull-up to Source
+PFETs:  Source pin of PFET
+PFETd:  Drain pin of PFET
+PFETg:  Gate pin of PFET
+BJT: Vbe(on) @ 25C = 0.5V, Vbe(on) @ 100C = 0.25V
+BJTe:  BJT emitter
+BJTc:  BJT collector
+BJTb:  BJT base
+OUTx:  Output pin from WS2814 (OUTR, OUTG, OUTB, OUTW)
+LOAD:  3 LEDs, red channel has Vf=2.2V for each LED, other channels have Vf=3.2V for each LED
+
+I need to know the process to solve for Rsns and Rbase... 1 step at a time
+	
+
+Vsns = Vbe * (1 + Rbase/Rntc)
+
+Vsns(25) = 0.5 * (1 + Rbase/4k7)
+Vsns(100) = 0.25 * (1 + Rbase/426.42)
+
+```
+|-      -|
+|- 0201 -|
+|-      -|
+|- 0201 -|
+|-      -|
+|- 0201 -|
+|-      -|
+|- 0201 -|
+|-      -|
+|- 0201 -|
+|-      -|
+```

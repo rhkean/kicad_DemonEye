@@ -1,4 +1,4 @@
-25812397850050968
+25787558863595406
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70748,13 +70748,6 @@ Capacitor 1206 Nominal
 0
 2
 2
-My Capacitors
-C_1210_Nominal
-C1210_Nominal
-Capacitor 1210 Nominal
-0
-2
-2
 My Connectors
 JST_ACH_BM02B-ACHSS_1x02_P1.2mm_SMD
 BM02B-ACHLKS-GAN-ETF(LF)(SN)-2
@@ -70803,7 +70796,7 @@ JST_NSHD_SM32B-NSHD_2x16_P1.0mm_Horizontal_SMD
 
 0
 34
-34
+33
 My Connectors
 JST_NSH_SM04B-NSH_1x04_P1.0mm_Horizontal_SMD
 SM04B-NSHSS-TB(LF)(SN)-2
@@ -70889,33 +70882,12 @@ Connector
 18
 18
 My Connectors
-Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal_THT
-Molex PicoBlade Connector System, 53048-0510, 5 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade horizontal
-0
-5
-5
-My Connectors
-Molex_PicoBlade_53261-0571_1x05_P1.25mm_Horizontal_SMD
-
-53261-0571 
-0
-7
-6
-My Connectors
 Molex_PicoBlade_53261-0671_1x06_P1.25mm_Horizontal_SMD
 
 53261-0671 
 0
 8
 7
-My Connectors
-Molex_PicoBlade_53261-0771_1x07_P1.25mm_Horizontal_SMD
-
-53261-0771 
-0
-9
-8
 My Connectors
 PinHeader_2x10_P2.54mm_Vertical_SMD_LowProfile
 
@@ -70959,33 +70931,12 @@ Samtec_T2M_T2M-106-01-x-D-TH-WT_2x06_P2.54mm_Vertical_THT_WeldTab
 14
 14
 My Package_Leadless
-DFN0603-2
-DSN package size 0603 2 pins
-DSN 0603-2 pins SOD962-2
-0
-2
-2
-My Package_Leadless
-DFN0606-3
-
-X1-DFN0606-3 X2-DFN0606-3
-0
-3
-3
-My Package_Leadless
 DFN1006-2
 DFN package size 1006 2 pins
 DFN 1006-2 pins SOD882
 0
 2
 2
-My Package_Leadless
-DFN1006-3
-DFN package size 1006 3 pins
-DFN package size 1006 3 pins
-0
-3
-3
 My Package_Leadless
 DFN1010D-3
 DFN 1.0x1.0mm SOT1215
@@ -71014,27 +70965,6 @@ LGA-3
 0
 3
 3
-My Package_Leadless
-Texas_RCJ-9_4.5x3.3mm_QFN
-
-TPSM84338RCJR 
-0
-21
-21
-My Package_Leadless
-Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm
-Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-Texas MicroSiP NoLead
-0
-14
-11
-My Package_Leadless
-Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm_ThermalVias
-Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-Texas MicroSiP NoLead
-0
-18
-11
 My Package_Leadless
 Texas_VQFN-HR-12_3.5x3.0mm_P0.5mm_Hot-Rod
 
@@ -71106,44 +71036,9 @@ Resistor SMD 0402 1005 Nominal 1006
 2
 2
 My Resistors
-R_0508
-Resistor SMD 0201 Nominal Spacing
-Resistor SMD 0201 Nominal
-0
-2
-2
-My Resistors
-R_0603_Nominal
-Resistor SMD 0603 Nominal Spacing
-Resistor SMD 0603 2012 Nominal
-0
-2
-2
-My Resistors
-R_0603_Wide
-Resistor SMD 0201 Nominal Spacing
-Resistor SMD 0201 Nominal
-0
-2
-2
-My Resistors
-R_0805_Nominal
-Resistor SMD 0805  Nominal Spacing
-Resistor SMD 0805 2012(metric) Nominal
-0
-2
-2
-My Resistors
-R_1206_Nominal
-Resistor SMD 1206  Nominal Spacing
-Resistor SMD 1206 (3216 Metric) Nominal
-0
-2
-2
-My Resistors
-R_1210_Nominal
-Resistor SMD 1206  Nominal Spacing
-Resistor SMD 1206 (3216 Metric) Nominal
+TH_0402_Nominal
+Thermistor SMD 0402 (1005 Metric) Nominal Spacing
+Thermistor SMD 0402 1005 Nominal 1006
 0
 2
 2
@@ -89760,6 +89655,13 @@ SN74LVC1G38DSFR
 0
 6
 6
+Personal_FootprintLibrary
+DSN0603-2
+DSN package size 0603 2 pins
+DSN 0603-2 pins SOD962-2
+0
+2
+2
 Personal_FootprintLibrary
 ESP32-S3-Pico-1
 

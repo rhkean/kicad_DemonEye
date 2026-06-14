@@ -7522,7 +7522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC807-25QA_40QA.pdf"
 			(at 119.38 116.84 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC807-25QA_40QA.pdf"
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -8684,7 +8684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC807-25QA_40QA.pdf"
 			(at 119.38 48.26 0)
 			(effects
 				(font
@@ -8948,7 +8948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC807-25QA_40QA.pdf"
 			(at 119.38 71.12 0)
 			(effects
 				(font

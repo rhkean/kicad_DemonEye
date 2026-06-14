@@ -1,7 +1,9 @@
 *.kicad_sch-bak
 .history/
-DemonEye-backups/
 \#auto_saved_files#
 _autosave*
 *.lck
+tmp/
+*-backups/
+jlcpcb/gerber/
 

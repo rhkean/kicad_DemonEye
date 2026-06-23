@@ -1,4 +1,4 @@
-25787558863595406
+25808957180933259
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57140,6 +57140,27 @@ ceramic
 0
 3
 3
+DemonEye_Footprints
+BCR421UFDQ
+
+
+0
+6
+6
+DemonEye_Footprints
+WS2814A
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+DemonEye_Footprints
+WS2814B
+10-Lead SSOP, 3.9 x 4.9mm body, 1.00mm pitch (http://www.st.com/resource/en/datasheet/viper01.pdf)
+SSOP 3.9 4.9 1.00
+0
+10
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -70796,7 +70817,7 @@ JST_NSHD_SM32B-NSHD_2x16_P1.0mm_Horizontal_SMD
 
 0
 34
-33
+34
 My Connectors
 JST_NSH_SM04B-NSH_1x04_P1.0mm_Horizontal_SMD
 SM04B-NSHSS-TB(LF)(SN)-2
@@ -70931,6 +70952,20 @@ Samtec_T2M_T2M-106-01-x-D-TH-WT_2x06_P2.54mm_Vertical_THT_WeldTab
 14
 14
 My Package_Leadless
+DFN-6-2EP_2x2mm_P0.65_EP1x0.67mm
+6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+8
+8
+My Package_Leadless
+DFN0603-2
+DSN package size 0603 2 pins
+DSN 0603-2 pins SOD962-2
+0
+2
+2
+My Package_Leadless
 DFN1006-2
 DFN package size 1006 2 pins
 DFN 1006-2 pins SOD882
@@ -70942,8 +70977,29 @@ DFN1010D-3
 DFN 1.0x1.0mm SOT1215
 
 0
+4
+4
+My Package_Leadless
+DFN2020D-6-EP_2x2mm_P0.65mm_EP1.76x0.9mm
+6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+7
+7
+My Package_Leadless
+Diodes_DFN1006-3
+DFN package size 1006 3 pins
+DFN package size 1006 3 pins
+0
 3
 3
+My Package_Leadless
+Diodes_UDFN2020-6_Type-B
+U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) 
+U-DFN2020-6 (Type F)
+0
+8
+8
 My Package_Leadless
 Oscillator_SMD_Abracon_ASAAIG-4Pin_2.0x1.6mm
 Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf
@@ -70966,12 +71022,33 @@ LGA-3
 3
 3
 My Package_Leadless
+Texas_UQFN-8_1.5x1.5mm_P0.5mm
+Texas RSE0010A UQFN, 10 Pin (https://www.ti.com/lit/ml/mpqf186d/mpqf186d.pdf)
+Texas RSE0010 UQFN NoLead
+0
+8
+8
+My Package_Leadless
+Texas_UQFN-10_1.5x2mm_P0.5mm
+Texas RSE0010A UQFN, 10 Pin (https://www.ti.com/lit/ml/mpqf186d/mpqf186d.pdf)
+Texas RSE0010 UQFN NoLead
+0
+10
+10
+My Package_Leadless
 Texas_VQFN-HR-12_3.5x3.0mm_P0.5mm_Hot-Rod
 
 
 0
 12
 12
+My Package_Leadless
+Untitled
+
+
+0
+0
+0
 My Package_Leadless
 WDFN6-4_2.05x2.05mm_P0.65mm
 
@@ -71030,6 +71107,13 @@ Resistor SMD 0201 Nominal
 2
 My Resistors
 R_0402_Nominal
+Resistor SMD 0402 (1005 Metric) Nominal Spacing
+Resistor SMD 0402 1005 Nominal 1006
+0
+2
+2
+My Resistors
+R_0402_Wide
 Resistor SMD 0402 (1005 Metric) Nominal Spacing
 Resistor SMD 0402 1005 Nominal 1006
 0

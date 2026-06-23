@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DemonEye_Footprints")(type "KiCad")(uri "${KIPRJMOD}/DemonEye_Footprints.pretty")(options "")(descr ""))
+)

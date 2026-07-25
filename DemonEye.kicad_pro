@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -198,7 +198,8 @@
         0.15,
         0.2,
         0.25,
-        0.3
+        0.3,
+        0.45
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -250,24 +251,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "four_way_junction|304800|1727200|c7871e6e-0c66-4f65-8ff2-f45d07cce447|78904042-0d1d-4cba-8566-26f0f99609f2|/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0||",
-        ""
-      ],
-      [
-        "four_way_junction|685800|1574800|c7871e6e-0c66-4f65-8ff2-f45d07cce447|78904042-0d1d-4cba-8566-26f0f99609f2|/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0||",
-        ""
-      ],
-      [
-        "no_connect_connected|304800|1727200|c7871e6e-0c66-4f65-8ff2-f45d07cce447|78904042-0d1d-4cba-8566-26f0f99609f2|/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0||",
-        ""
-      ],
-      [
-        "no_connect_connected|685800|1574800|c7871e6e-0c66-4f65-8ff2-f45d07cce447|78904042-0d1d-4cba-8566-26f0f99609f2|/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -481,6 +465,7 @@
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -489,10 +474,12 @@
   "libraries": {
     "pinned_footprint_libs": [
       "My Package_Leadless",
-      "DemonEye_Footprints"
+      "DemonEye_Footprints",
+      "ZZ_New Downloads"
     ],
     "pinned_symbol_libs": [
-      "PersonalSchematicSymbolLibrary"
+      "PersonalSchematicSymbolLibrary",
+      "PicoStar"
     ]
   },
   "meta": {
@@ -646,6 +633,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": false
         }
       ],

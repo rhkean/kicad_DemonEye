@@ -1,9 +1,29 @@
+# Temporary / Cache files (always ignore)
+fp-info-cache
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+
+# Local user preferences (window positions, visible layers, etc)
+*.kicad_prl
+
+# KiCad automatic backups and history
+*.bak
 *.kicad_sch-bak
+*.kicad_pcb-bak
+**/*-backups/
 .history/
 \#auto_saved_files#
-_autosave*
+
+# Map and report files (Optional: ignore if you don't want build outputs in git)
+*.rpt
+*.rpt~
+*.html
+*.log
+
+# Other
 *.lck
 tmp/
-*-backups/
 jlcpcb/gerber/
 

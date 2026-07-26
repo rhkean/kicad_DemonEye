@@ -3224,6 +3224,12 @@
 		(uuid "53c92c57-123a-4d2e-a2f9-2da9be1d6b6e")
 	)
 	(junction
+		(at 55.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560134ee-4ebd-40cc-843d-e2b568390513")
+	)
+	(junction
 		(at 53.34 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3252,6 +3258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9482b9db-6fc7-4bb5-82fc-6c1b882b309d")
+	)
+	(junction
+		(at 50.8 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997b752b-ab2b-4796-b15c-1cc7379a662a")
 	)
 	(junction
 		(at 160.02 91.44)
@@ -3306,6 +3318,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df607f08-5075-4c29-a162-8172cce8dd13")
+	)
+	(junction
+		(at 35.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f8419d-b48a-4c65-a41e-c20557dd3746")
 	)
 	(junction
 		(at 60.96 25.4)
@@ -3507,7 +3525,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 55.88 35.56)
+			(xy 30.48 35.56) (xy 43.18 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3554,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "2418d12f-7b4b-44bf-8ea5-5076d30d3fc0")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f17d4f-06a8-4939-9a1a-3cea91a6c3c8")
 	)
 	(wire
 		(pts
@@ -3627,6 +3655,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 43.18) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3a8b33-7118-417f-bf08-519ddfe40ab2")
+	)
+	(wire
+		(pts
 			(xy 124.46 68.58) (xy 124.46 66.04)
 		)
 		(stroke
@@ -3647,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 35.56) (xy 55.88 43.18)
+			(xy 55.88 35.56) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3834,6 +3872,16 @@
 			(type default)
 		)
 		(uuid "4dde803e-7794-4267-9260-40afe334a82c")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fab9a3f-9a2f-4231-ada3-7d48ed2662a2")
 	)
 	(wire
 		(pts
@@ -4047,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de16be1-184a-4229-9d93-cd99e0257b30")
+	)
+	(wire
+		(pts
 			(xy 124.46 137.16) (xy 129.54 137.16)
 		)
 		(stroke
@@ -4187,6 +4245,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91aec1b7-a12c-4b38-bb51-e49010104c5f")
+	)
+	(wire
+		(pts
 			(xy 114.3 91.44) (xy 114.3 93.98)
 		)
 		(stroke
@@ -4277,7 +4345,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 48.26) (xy 55.88 50.8)
+			(xy 55.88 43.18) (xy 55.88 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4514,6 +4582,16 @@
 			(type default)
 		)
 		(uuid "bdaccbd4-216a-4007-add3-df69fe64f1a8")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01e92fc-fd5f-4f5e-b1d1-80367c065102")
 	)
 	(wire
 		(pts
@@ -4914,6 +4992,16 @@
 			(justify left bottom)
 		)
 		(uuid "26010bfe-c50f-4a0b-83f1-1ae2e4d9997e")
+	)
+	(label "SRH_{G}"
+		(at 50.8 35.56 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "2969dc94-5980-4595-8cc6-ce731eb6e759")
 	)
 	(label "White"
 		(at 132.08 73.66 90)
@@ -6898,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Value" "10R5"
+		(property "Value" "10R"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -6915,7 +7003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AF_51_ROHS_L"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -6924,7 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10.5Ω 50mW 25V Thick Film Resistor ±1% ±200ppm/℃ 0201"
+		(property "Description" "-55℃~+155℃ 10Ω 50mW 25V Thick Film Resistor ±1% -100/+350ppm/℃ 0201, Anti-Sulfur AEC-Q200 Automotive (TBD: TCR verified from YAGEO AF-series table only — confirm on datasheet before order)"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -6933,7 +7021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AF0201FR-0710RL/5900139?s=N4IgTCBcDaIIIDEAMYkEYECUC0SDsaSmAMiALoC%2BQA"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -6942,7 +7030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/Royalohm/0201WMF105JTEE?qs=e8oIoAS2J1QuOtpVi0hgdA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AF0201FR-0710RL?qs=tggtontpCXP9QZmDkmqxFQ%3D%3D"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -6951,7 +7039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784112"
+		(property "LCSC" "C143979"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -6960,7 +7048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -6969,7 +7057,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0201WMF105JTEE"
+		(property "MPN" "AF0201FR-0710RL"
 			(at 114.3 96.52 90)
 			(effects
 				(font
@@ -7055,6 +7143,119 @@
 			(project "DemonEye"
 				(path "/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "324a803e-d234-4669-a480-694920d12edf")
+		(property "Reference" "R11"
+			(at 45.72 34.29 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "200R"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "My Resistors:R_0402_Nominal"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 33 Ω mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 AEC-Q200"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07200RL/2827569"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-07200RL?qs=NKHyz0HolODL018gN8NVYw%3D%3D"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114764"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-07200RL"
+			(at 45.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7be1a90d-9009-49c0-90a4-1f69c2e5f782")
+		)
+		(pin "2"
+			(uuid "198c1683-8645-4273-a6a0-ad1c9cf33b77")
+		)
+		(instances
+			(project "DemonEye"
+				(path "/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7451,7 +7652,7 @@
 				)
 			)
 		)
-		(property "Value" "10R5"
+		(property "Value" "10R"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7468,7 +7669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AF_51_ROHS_L"
 			(at 182.88 96.52 0)
 			(effects
 				(font
@@ -7477,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10.5Ω 50mW 25V Thick Film Resistor ±1% ±200ppm/℃ 0201"
+		(property "Description" "-55℃~+155℃ 10Ω 50mW 25V Thick Film Resistor ±1% -100/+350ppm/℃ 0201, Anti-Sulfur AEC-Q200 Automotive (TBD: TCR verified from YAGEO AF-series table only — confirm on datasheet before order)"
 			(at 182.88 96.52 0)
 			(effects
 				(font
@@ -7486,7 +7687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AF0201FR-0710RL/5900139?s=N4IgTCBcDaIIIDEAMYkEYECUC0SDsaSmAMiALoC%2BQA"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7495,7 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/Royalohm/0201WMF105JTEE?qs=e8oIoAS2J1QuOtpVi0hgdA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AF0201FR-0710RL?qs=tggtontpCXP9QZmDkmqxFQ%3D%3D"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7504,7 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784112"
+		(property "LCSC" "C143979"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7513,7 +7714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7522,7 +7723,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0201WMF105JTEE"
+		(property "MPN" "AF0201FR-0710RL"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -7615,7 +7816,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 55.88 45.72 180)
+		(at 55.88 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7623,23 +7824,23 @@
 		(dnp no)
 		(uuid "508c7d07-9dac-4866-bb62-ea5e51e77be6")
 		(property "Reference" "R10"
-			(at 53.975 45.72 90)
+			(at 53.975 40.64 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
 			)
 		)
-		(property "Value" "1k2"
-			(at 55.88 45.72 90)
+		(property "Value" "10k"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0402_Nominal"
-			(at 55.88 45.72 0)
+		(property "Footprint" "My Resistors:R_0201_Nominal"
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7849,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 55.88 45.72 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,8 +7857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 1.2kΩ 62.5mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402"
-			(at 55.88 45.72 0)
+		(property "Description" "-55℃~+155℃ 10kΩ 50mW 25V Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,8 +7866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0402FR-071K2L/5895135"
-			(at 55.88 45.72 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0710KL/5894228"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,8 +7875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AC0402FR-071K2L?qs=yhV1fb9g%2FKbdhhuPa1S2WQ%3D%3D"
-			(at 55.88 45.72 90)
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AC0201FR-0710KL?qs=NgbZBzc1CyFiKufBuYG%252Bxg%3D%3D"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,8 +7884,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144793"
-			(at 55.88 45.72 90)
+		(property "LCSC" "C144833"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +7894,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 55.88 45.72 90)
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,8 +7902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0402FR-071K2L"
-			(at 55.88 45.72 90)
+		(property "Manufacturer Part Number" "AC0201FR-0710KL"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,16 +7934,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a028878-670a-4e42-9513-7f0a9be8b31d")
 		(property "Reference" "D5"
-			(at 38.1 77.2159 90)
+			(at 34.29 77.47 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Value" "D_Schottky_Small_Filled"
@@ -8379,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Value" "10R5"
+		(property "Value" "10R"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8396,7 +8595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AF_51_ROHS_L"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -8405,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10.5Ω 50mW 25V Thick Film Resistor ±1% ±200ppm/℃ 0201"
+		(property "Description" "-55℃~+155℃ 10Ω 50mW 25V Thick Film Resistor ±1% -100/+350ppm/℃ 0201, Anti-Sulfur AEC-Q200 Automotive (TBD: TCR verified from YAGEO AF-series table only — confirm on datasheet before order)"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -8414,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AF0201FR-0710RL/5900139?s=N4IgTCBcDaIIIDEAMYkEYECUC0SDsaSmAMiALoC%2BQA"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8423,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/Royalohm/0201WMF105JTEE?qs=e8oIoAS2J1QuOtpVi0hgdA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AF0201FR-0710RL?qs=tggtontpCXP9QZmDkmqxFQ%3D%3D"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8432,7 +8631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784112"
+		(property "LCSC" "C143979"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8441,7 +8640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8450,7 +8649,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0201WMF105JTEE"
+		(property "MPN" "AF0201FR-0710RL"
 			(at 137.16 96.52 90)
 			(effects
 				(font
@@ -8656,7 +8855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 50.8 0)
+		(at 55.88 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8665,7 +8864,7 @@
 		(fields_autoplaced yes)
 		(uuid "8384a54d-9553-4366-8e82-730d869abeb1")
 		(property "Reference" "#PWR04"
-			(at 55.88 57.15 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 55.88 0)
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 50.8 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 50.8 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 50.8 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,6 +9475,120 @@
 			(project "DemonEye"
 				(path "/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PersonalSchematicSymbolLibrary:D_Zener_Small_Filled")
+		(at 50.8 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a36a60-fe0e-426d-97b4-c44d15981a8b")
+		(property "Reference" "D6"
+			(at 49.53 39.37 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16V"
+			(at 49.53 41.91 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "My Package_Leadless:DFN1006-2"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC_SER.pdf"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V Zener DFN1006-2"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BZX884-C16,315"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C551222"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX884-C16-315/790058"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/Nexperia/BZX884-C16315?qs=me8TqzrmIYXBeXUwWubysw%3D%3D"
+			(at 50.8 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d22d637c-2080-4652-b817-0eeb0afeac82")
+		)
+		(pin "1"
+			(uuid "4c1a9362-463b-428a-852f-674a2fba2da4")
+		)
+		(instances
+			(project "DemonEye"
+				(path "/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10209,6 +10522,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c45712-0155-4773-8eed-cc2903523197")
+		(property "Reference" "#FLG06"
+			(at 35.56 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bcd489-6954-45c1-b371-830f993f7c03")
+		)
+		(instances
+			(project "DemonEye"
+				(path "/5d0653cb-18c7-40b0-aaa1-ad2ca56951e0"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "My Power Management:BCR421UFDQ")
 		(at 129.54 91.44 90)
 		(unit 1)
@@ -10428,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Value" "10R5"
+		(property "Value" "10R"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -10445,7 +10825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AF_51_ROHS_L"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -10454,7 +10834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10.5Ω 50mW 25V Thick Film Resistor ±1% ±200ppm/℃ 0201"
+		(property "Description" "-55℃~+155℃ 10Ω 50mW 25V Thick Film Resistor ±1% -100/+350ppm/℃ 0201, Anti-Sulfur AEC-Q200 Automotive (TBD: TCR verified from YAGEO AF-series table only — confirm on datasheet before order)"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -10463,7 +10843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AF0201FR-0710RL/5900139?s=N4IgTCBcDaIIIDEAMYkEYECUC0SDsaSmAMiALoC%2BQA"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -10472,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/Royalohm/0201WMF105JTEE?qs=e8oIoAS2J1QuOtpVi0hgdA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/AF0201FR-0710RL?qs=tggtontpCXP9QZmDkmqxFQ%3D%3D"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -10481,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784112"
+		(property "LCSC" "C143979"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -10490,7 +10870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -10499,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0201WMF105JTEE"
+		(property "MPN" "AF0201FR-0710RL"
 			(at 160.02 96.52 90)
 			(effects
 				(font
